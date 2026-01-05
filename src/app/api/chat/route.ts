@@ -16,7 +16,7 @@ export async function POST(req: Request) {
 
   const getModel = providers[provider as keyof typeof providers] || providers.openai
 
-  const result = streamText({
+  const result = await streamText({
     model: getModel(),
     messages,
   })
