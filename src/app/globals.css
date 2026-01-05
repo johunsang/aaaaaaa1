@@ -2,37 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* THEME START */
+/* Applied theme: minimal */
+/* Minimal Theme */
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 15, 23, 42;
-  --background-end-rgb: 30, 41, 59;
+  --color-bg: #fafafa;
+  --color-bg-secondary: #f4f4f5;
+  --color-text: #0a0a0a;
+  --color-text-secondary: #52525b;
+  --color-accent: #0a0a0a;
+  --color-accent-hover: #27272a;
+  --color-border: #e4e4e7;
 }
+/* THEME END */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-/* 스크롤바 스타일 */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(139, 92, 246, 0.5);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(139, 92, 246, 0.7);
+  background: var(--color-bg);
+  color: var(--color-text);
 }
