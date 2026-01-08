@@ -2,13 +2,13 @@
   "$schema": "https://onesaas.kr/schema/onesaas.json",
   "schemaVersion": "1.0.0",
   "project": {
-    "id": "deploy-test-0108c",
-    "name": "deploy-test-0108c",
-    "slug": "deploy-test-0108c",
-    "company": "deploy-test-0108c",
-    "companyEn": "deploy-test-0108c",
-    "email": "support@deploy-test-0108c.com",
-    "createdAt": "2026-01-08T04:43:47.571Z",
+    "id": "deploy-test-0108e",
+    "name": "deploy-test-0108e",
+    "slug": "deploy-test-0108e",
+    "company": "deploy-test-0108e",
+    "companyEn": "deploy-test-0108e",
+    "email": "support@deploy-test-0108e.com",
+    "createdAt": "2026-01-08T05:01:03.878Z",
     "generatedBy": "onesaas-wizard"
   },
   "template": {
@@ -18,7 +18,7 @@
   },
   "theme": {
     "id": "neon",
-    "appliedAt": "2026-01-08T04:43:47.571Z"
+    "appliedAt": "2026-01-08T05:01:03.878Z"
   },
   "features": {
     "auth": {
